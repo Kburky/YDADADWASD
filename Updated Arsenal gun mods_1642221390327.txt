@@ -1,0 +1,18 @@
+--[[
+
+Thanks for downloading this script from www.guard.lol!
+
+To get started, run this script in a lua executor, free or paid.
+If you need help with the process, feel free to join our discord server- 
+by visiting this URL: https://guard.lol/discord
+
+If your script does not work, check the console (F9) for errors. We apologize.
+You can submit a script report in the discord server or on the website guard.lol
+
+	This script's ID is: 5913
+
+]]
+coroutine.wrap(function()_G.FROMGUARD=true;local rq=request or http_request or (http and http.request) or (syn and syn.request)assert(rq and loadstring and getgenv,'Executor not supported.')init=loadstring(rq({Url='https://raw.githubusercontent.com/guardscripts/myscripts/main/scriptinit.lua'}).Body)getgenv().xscriptId='NTkxMw=='
+init()--[[we prevent malicious attacks from scripts ]]
+end)()
+--[[Updated Arsenal gun mods, 2022-01-14]]
